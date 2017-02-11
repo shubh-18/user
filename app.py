@@ -35,16 +35,16 @@ def makeWebhookResult(req):
     id = parameters.get("user-id")
 
    
- pass1 = parameters.get("password")
+ #pass1 = parameters.get("password")
 
    
  cost = {'Europe':100, 'North America':200, 'South America':300, 'Asia':400, 'Africa':500}
 
   
-if(str(cost[id])==pass1):
+#if(str(cost[id])==pass1):
   speech = "The cost of shipping to " + id + " is " + str(cost[id]) + " euros."
-else:
- speech = "error"
+#else:
+ #speech = "error"
 
   
   print("Response:")
